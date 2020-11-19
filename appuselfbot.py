@@ -937,7 +937,7 @@ if __name__ == '__main__':
                 token = input("| ").strip('"')
                 with open("settings/config.json", "r+", encoding="utf8") as fp:
                     config = json.load(fp)
-                    config["token"] = token
+                    config["NzI2MjQxMzA5Njk3OTAwNjI2.X7aNgQ.2D-B2mQmvyg9AvqQDg8sUTl_jjY"] = token
                     fp.seek(0)
                     fp.truncate()
                     json.dump(config, fp, indent=4)
